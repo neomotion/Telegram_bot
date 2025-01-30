@@ -19,16 +19,16 @@ class WebSearch:
             # Create a search prompt
             search_prompt = f"""Search query: {query}
 
-Please provide:
-1. A brief summary of the topic (2-3 sentences)
-2. Three relevant URLs (only real, working URLs)
-
-Format exactly as:
-SUMMARY: <your summary>
-URLS:
-- <url1>
-- <url2>
-- <url3>"""
+                                Please provide:
+                                1. A brief summary of the topic (2-3 sentences)
+                                2. Three relevant URLs (only real, working URLs)
+                                
+                                Format exactly as:
+                                SUMMARY: <your summary>
+                                URLS:
+                                - <url1>
+                                - <url2>
+                                - <url3>"""
 
             # Get response from Gemini
             response = self.model.generate_content(search_prompt)
