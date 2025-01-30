@@ -22,9 +22,9 @@ from telegram.ext import (
 from datetime import datetime, UTC
 
 # Tokens
-TELEGRAM_TOKEN = "7440005565:AAGPMCTaHp-ynA-6L72aghpCLVzlhjpgZzs"
-GEMINI_API_KEY = "AIzaSyDeB1RgKUpmk6mdRtbeXJ8vu-Kwo3p3pTI"
-MONGODB_URI = "mongodb+srv://Sahilsssingh5:Sahilsssingh5@cluster0.bilej.mongodb.net/?retryWrites=true&w=majority&tls=true&appName=Cluster0"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+MONGODB_URI = os.getenv("MONGODB_URI")
 
 # Initialize clients
 search_client = WebSearch(api_key=GEMINI_API_KEY)
