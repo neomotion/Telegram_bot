@@ -1,7 +1,7 @@
 
 # Advanced Telegram Bot with AI Capabilities
 
-A feature-rich Telegram bot that combines the power of Google's Gemini AI with various functionalities including sentiment analysis, file processing, web search, and multilingual support.
+A Telegram bot that combines the power of Google's Gemini AI with various functionalities including sentiment analysis, file processing, web search, and multilingual support.
 
 ## Features
 
